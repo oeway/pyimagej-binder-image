@@ -89,4 +89,3 @@ dependencies:
     - websocket-client==0.56.0
     - imjoy-rpc>=0.2.5
     - imjoy-jupyter-extension
-    - imjoy-elfinder
