@@ -15,6 +15,7 @@ dependencies:
     - scikit-learn
     - pandas
     - pillow
+    - imjoy
     - imjoy-rpc>=0.2.5
     - imjoy-jupyter-extension
     - imjoy-elfinder
