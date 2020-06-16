@@ -3,6 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - python=3.7.7
   - conda-forge::python
   - conda-forge::pyimagej
   - conda-forge::openjdk=8.0.152=h46b5887_1
