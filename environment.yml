@@ -10,12 +10,12 @@ dependencies:
   - conda-forge::openjdk=8.0
   - numpy
   - scipy
-  - pandas
   - pip:
     - scikit-image
     - scikit-learn
     - pandas
     - pillow
+    - requests
     - imjoy
     - imjoy-rpc>=0.2.5
     - imjoy-jupyter-extension
