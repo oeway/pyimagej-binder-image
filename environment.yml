@@ -20,3 +20,4 @@ dependencies:
     - imjoy-rpc>=0.2.5
     - imjoy-jupyter-extension
     - imjoy-elfinder
+    - jupyter-server-proxy
