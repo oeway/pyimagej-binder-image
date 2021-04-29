@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# set environment variables
+export DISPLAY=:1
+
+# execute run commands
+Xvfb $DISPLAY -screen 0 1024x768x16 &
+
+exec "$@"
