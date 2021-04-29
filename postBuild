@@ -1,1 +1,2 @@
+export JAVA_HOME=$CONDA_PREFIX
 python3 -c 'import imagej;ij = imagej.init("sc.fiji:fiji:2.0.0-pre-10");print("pyimagej initialized.")'
