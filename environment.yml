@@ -5,11 +5,19 @@ channels:
 dependencies:
   - python=3.7.7
   - pip
-  - conda-forge::pyimagej
-  - conda-forge::pyjnius=1.2.0
-  - conda-forge::openjdk=8.0
   - numpy
   - scipy
+  - imglyb
+  - ipywidgets
+  - jpype1
+  - jupyter_contrib_nbextensions
+  - matplotlib-base
+  - notebook
+  - openjdk=8
+  - pyimagej
+  - scikit-image
+  - scyjava
+  - xarray
   - pip:
     - scikit-image
     - scikit-learn
