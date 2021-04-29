@@ -1,2 +1,6 @@
 export JAVA_HOME=/srv/conda/envs/notebook
-python3 -c 'import imagej;ij = imagej.init("sc.fiji:fiji:2.0.0-pre-10");print("pyimagej initialized.")'
+wget https://downloads.imagej.net/fiji/archive/20201104-1356/fiji-linux64.zip
+unzip fiji-linux64.zip -d $HOME
+# fix FilamentDetector issue
+mv $HOME/Fiji.app/jars/FilamentDetector-1.0.0.jar $HOME/Fiji.app/jars/FilamentDetector-1.0.0.jar.disabled
+python3 -c "import imagej;ij = imagej.init('$HOME/Fiji.app');print('pyimagej initialized.')"
