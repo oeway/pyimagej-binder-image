@@ -14,10 +14,12 @@ dependencies:
   - matplotlib-base
   - notebook
   - openjdk=8
-  - pyimagej
   - scikit-image
   - scyjava
   - xarray
+  - matplotlib=3.2
+  - pyvirtualdisplay=0.2
+  - pyimagej=1.0.0
   - pip:
     - scikit-image
     - scikit-learn
@@ -29,3 +31,6 @@ dependencies:
     - imjoy-jupyter-extension
     - imjoy-elfinder
     - jupyter-server-proxy
+    
+
+
