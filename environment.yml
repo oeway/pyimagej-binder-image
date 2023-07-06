@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.7.7
+  - python=3.11.4
   - pip
   - numpy
   - scipy
@@ -19,7 +19,7 @@ dependencies:
   - xarray
   - matplotlib=3.2
   - pyvirtualdisplay=0.2
-  - pyimagej=1.0.0
+  - pyimagej
   - pip:
     - scikit-image
     - scikit-learn
