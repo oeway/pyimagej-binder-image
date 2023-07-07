@@ -27,7 +27,7 @@ dependencies:
     - pillow
     - requests
     - imjoy
-    - imjoy-rpc>=0.2.5
+    - imjoy-rpc
     - imjoy-jupyter-extension
     - imjoy-elfinder
     - jupyter-server-proxy
