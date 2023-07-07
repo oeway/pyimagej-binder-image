@@ -17,8 +17,8 @@ dependencies:
   - scikit-image
   - scyjava
   - xarray
-  - matplotlib=3.2
-  - pyvirtualdisplay=0.2
+  - matplotlib
+  - pyvirtualdisplay
   - pyimagej
   - pip:
     - scikit-image
