@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.7.7
+  - python
   - pip
   - numpy
   - scipy
@@ -17,9 +17,9 @@ dependencies:
   - scikit-image
   - scyjava
   - xarray
-  - matplotlib=3.2
-  - pyvirtualdisplay=0.2
-  - pyimagej=1.0.0
+  - matplotlib
+  - pyvirtualdisplay
+  - pyimagej
   - pip:
     - scikit-image
     - scikit-learn
@@ -27,7 +27,7 @@ dependencies:
     - pillow
     - requests
     - imjoy
-    - imjoy-rpc>=0.2.5
+    - imjoy-rpc
     - imjoy-jupyter-extension
     - imjoy-elfinder
     - jupyter-server-proxy
